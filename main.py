@@ -6,3 +6,6 @@ def detectar_nulos(df):
 
 def calcular_media(df):
     return df.mean()
+
+def calcular_info(df):
+    return df.info()
