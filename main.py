@@ -8,6 +8,5 @@ def calcular_promedios(df):
     return df.mean()
 
 def calcular_tipos(df):
-    for col in df.iteritems():
-        print(col.dtype)
+    print(df.dtypes)
         
